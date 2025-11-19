@@ -15,7 +15,7 @@ import {
 } from "stream-chat-react";
 import { StreamChat } from "stream-chat";
 import toast from "react-hot-toast";
-import ChatLoader from "../components/chatLoader";
+import ChatLoader from "../components/ChatLoader";
 import CallButton from "../components/CallButton";
 
 const MEETO_API_KEY = import.meta.env.VITE_MEETO_API_KEY
