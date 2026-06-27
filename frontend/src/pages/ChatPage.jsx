@@ -32,7 +32,7 @@ const ChatPage = () => {
   const {data:tokenData} = useQuery({
     queryKey:["streamToken"],
     queryFn:getStreamToken,
-    enabled: !!authUser, //this only run only Authuser avialble
+    enabled: !!authUser, 
   });
 
   useEffect(() => {
